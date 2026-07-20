@@ -424,6 +424,94 @@ body {
     color: var(--text-light);
 }
 
+/* ===== FORMATION TIMELINE ===== */
+.formation-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.formation-timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--accent2);
+    opacity: 0.3;
+}
+
+.formation-item {
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.formation-item:last-child {
+    margin-bottom: 0;
+}
+
+.formation-item::before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--accent2);
+    border: 3px solid var(--dark);
+    box-shadow: 0 0 0 3px var(--accent2);
+}
+
+.formation-item .date {
+    font-size: 0.85em;
+    color: var(--accent2);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.formation-item h3 {
+    font-size: 1.2em;
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+.formation-item .school {
+    font-size: 0.95em;
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+
+.formation-item p {
+    color: var(--text-light);
+    font-size: 0.95em;
+    line-height: 1.7;
+}
+
+.formation-item .badge {
+    display: inline-block;
+    padding: 3px 12px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    font-weight: 600;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.formation-item .badge-primary {
+    background: rgba(100, 255, 218, 0.15);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.formation-item .badge-secondary {
+    background: rgba(233, 69, 96, 0.15);
+    color: var(--accent2);
+    border: 1px solid var(--accent2);
+}
+
 /* ===== CV / PORTFOLIO SECTION ===== */
 .cv-section {
     max-width: 1100px;
@@ -764,6 +852,7 @@ footer {
     <ul class="nav-links" id="navLinks">
         <li><a href="#about">À propos</a></li>
         <li><a href="#skills">Compétences</a></li>
+        <li><a href="#formation">Formation</a></li>
         <li><a href="#cv">CV</a></li>
         <li><a href="#experience">Expérience</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -810,14 +899,14 @@ footer {
         <div class="about-text fade-in">
             <h3>Administrateur <span>Système & Réseau</span></h3>
             <p>
-                Professionnel passionné par l'administration des infrastructures IT,
-                je mets mon expertise au service de la performance, de la sécurité et
-                de la disponibilité des systèmes d'information.
+                Administrateur IT et Responsable d'infrastructure chevronné avec plus de 6 ans d'expérience
+                dans la gestion, la maintenance et la sécurisation des systèmes d'information.
             </p>
             <p>
-                Fort d'une expérience solide dans la gestion de parcs informatiques,
-                la virtualisation (VMware, Hyper-V), l'administration Linux/Windows et
-                la sécurisation des réseaux d'entreprise.
+                Expert dans l'administration d'environnements virtualisés multi-plateformes, la gestion
+                de réseaux LAN/WAN et le pilotage de la sécurité périmétrique. Fortement axé sur la haute
+                disponibilité des services, l'optimisation du parc informatique et la mise en œuvre de
+                politiques de sauvegarde rigoureuses.
             </p>
             <div class="about-info">
                 <div class="info-item"><i class="fas fa-user"></i> RAKOTONNJARY Mandrinirina François</div>
@@ -841,51 +930,93 @@ footer {
     <div class="skills-grid">
         <div class="skill-card fade-in">
             <div class="icon"><i class="fas fa-server"></i></div>
-            <h3>Administration Système</h3>
+            <h3>Administration Systèmes</h3>
             <div class="skill-bar"><div class="skill-bar-fill" data-width="95"></div></div>
-            <div class="skill-label"><span>Linux (Debian, RHEL)</span><span>95%</span></div>
+            <div class="skill-label"><span>Windows Server / AD / O365</span><span>95%</span></div>
             <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
-            <div class="skill-label"><span>Windows Server</span><span>90%</span></div>
+            <div class="skill-label"><span>Linux (Debian, Ubuntu)</span><span>90%</span></div>
         </div>
         <div class="skill-card fade-in">
             <div class="icon"><i class="fas fa-network-wired"></i></div>
-            <h3>Réseau</h3>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
-            <div class="skill-label"><span>Cisco / VLAN / Routage</span><span>90%</span></div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
-            <div class="skill-label"><span>TCP/IP, DNS, DHCP, VPN</span><span>85%</span></div>
+            <h3>Réseau & Sécurité</h3>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div>
+            <div class="skill-label"><span>Firewall (pfSense, OPNsense, FortiGate)</span><span>92%</span></div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+            <div class="skill-label"><span>Routage / VLAN / VPN / Cisco</span><span>88%</span></div>
         </div>
         <div class="skill-card fade-in">
             <div class="icon"><i class="fas fa-cloud"></i></div>
-            <h3>Virtualisation & Cloud</h3>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
-            <div class="skill-label"><span>VMware / Hyper-V</span><span>88%</span></div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
-            <div class="skill-label"><span>Docker / Kubernetes</span><span>75%</span></div>
+            <h3>Virtualisation & Stockage</h3>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+            <div class="skill-label"><span>VMware ESXi / Proxmox</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+            <div class="skill-label"><span>Veeam Backup / Hyper-V</span><span>85%</span></div>
         </div>
         <div class="skill-card fade-in">
             <div class="icon"><i class="fas fa-shield-alt"></i></div>
-            <h3>Sécurité</h3>
+            <h3>Sécurité & Sauvegarde</h3>
             <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
-            <div class="skill-label"><span>Firewall / Proxy</span><span>85%</span></div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
-            <div class="skill-label"><span>SIEM / Antivirus</span><span>80%</span></div>
+            <div class="skill-label"><span>IDS/IPS / EDR/XDR / Antivirus</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+            <div class="skill-label"><span>Politiques de sauvegarde & Restauration</span><span>90%</span></div>
         </div>
         <div class="skill-card fade-in">
             <div class="icon"><i class="fas fa-database"></i></div>
-            <h3>Base de Données</h3>
+            <h3>Base de Données & Parc</h3>
             <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
-            <div class="skill-label"><span>MySQL / PostgreSQL</span><span>80%</span></div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
-            <div class="skill-label"><span>SQL Server</span><span>70%</span></div>
+            <div class="skill-label"><span>MySQL / PostgreSQL / SQL Server</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+            <div class="skill-label"><span>GLPI / Gestion de parc / Inventaire</span><span>85%</span></div>
         </div>
         <div class="skill-card fade-in">
-            <div class="icon"><i class="fas fa-tools"></i></div>
-            <h3>Outils & Scripting</h3>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
-            <div class="skill-label"><span>Bash / PowerShell</span><span>85%</span></div>
-            <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
-            <div class="skill-label"><span>Ansible / Terraform</span><span>70%</span></div>
+            <div class="icon"><i class="fas fa-code"></i></div>
+            <h3>Développement & Outils</h3>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+            <div class="skill-label"><span>PHP / Laravel (API REST)</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+            <div class="skill-label"><span>Bash / PowerShell / GNS3</span><span>80%</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- FORMATION -->
+<section class="section" id="formation">
+    <div class="section-title fade-in">
+        <h2>Formations & Diplômes</h2>
+        <div class="line"></div>
+        <p>Mon parcours académique et certifications</p>
+    </div>
+    <div class="formation-timeline">
+        <div class="formation-item fade-in">
+            <div class="date">Auto-formation</div>
+            <h3>Validation d'Expertises Pratiques</h3>
+            <div class="school">Parcours autodidacte & Laboratoires techniques</div>
+            <p>
+                Administration avancée Microsoft Windows Server (Active Directory, O365),
+                Solutions de sauvegarde Veeam, Gestion de parc GLPI.
+            </p>
+            <p style="margin-top: 8px;">
+                <span class="badge badge-primary">Autodidacte</span>
+                <span class="badge badge-secondary">CISCO</span>
+                <span class="badge badge-primary">FortiGate</span>
+                <span class="badge badge-secondary">GNS3</span>
+            </p>
+        </div>
+        <div class="formation-item fade-in">
+            <div class="date">2015</div>
+            <h3>DTS en Informatique Réseau et Système d'Exploitation</h3>
+            <div class="school">CNTEMAD Ankadifatsy</div>
+            <p>
+                Diplôme de Technicien Supérieur en Informatique, spécialisé en Réseau et Système d'Exploitation.
+            </p>
+        </div>
+        <div class="formation-item fade-in">
+            <div class="date">2013</div>
+            <h3>Baccalauréat Série D</h3>
+            <div class="school">Lycée Saint Vincent de Paul</div>
+            <p>
+                Baccalauréat en Sciences expérimentales.
+            </p>
         </div>
     </div>
 </section>
@@ -908,11 +1039,11 @@ footer {
                 certifications et compétences détaillées dans mon CV au format PDF.
             </p>
             <ul class="cv-details">
-                <li><i class="fas fa-check-circle"></i> Expériences professionnelles détaillées</li>
-                <li><i class="fas fa-check-circle"></i> Formations et diplômes</li>
-                <li><i class="fas fa-check-circle"></i> Certifications techniques</li>
-                <li><i class="fas fa-check-circle"></i> Compétences techniques évaluées</li>
-                <li><i class="fas fa-check-circle"></i> Informations de contact</li>
+                <li><i class="fas fa-check-circle"></i> Plus de 6 ans d'expérience en administration IT</li>
+                <li><i class="fas fa-check-circle"></i> Compétences en virtualisation (VMware, Proxmox) et sauvegarde (Veeam)</li>
+                <li><i class="fas fa-check-circle"></i> Expertise firewall (pfSense, OPNsense, FortiGate)</li>
+                <li><i class="fas fa-check-circle"></i> Projets personnels & labs techniques (GNS3, Cisco, FortiGate)</li>
+                <li><i class="fas fa-check-circle"></i> DTS Informatique Réseau & Auto-formation active</li>
             </ul>
             <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px;">
                 <a class="btn btn-primary" href="CV_RAKOTONNJARY_MANDRINIRINA_FRANCOIS.pdf" download>
@@ -935,30 +1066,59 @@ footer {
     </div>
     <div class="timeline">
         <div class="timeline-item fade-in">
-            <div class="date">2024 - Présent</div>
-            <h3>Administrateur Système et Réseau</h3>
-            <div class="company">Entreprise - Madagascar</div>
+            <div class="date">Juin 2023 - Présent</div>
+            <h3>Responsable de Systèmes d'Information (RSI)</h3>
+            <div class="company">Maïka Assistance - Antanimora Avaratra</div>
             <p>
-                Gestion et maintenance de l'infrastructure IT complète. Supervision des serveurs Linux/Windows,
-                administration des réseaux, gestion de la sécurité et déploiement de solutions de virtualisation.
+                Pilotage & Performance : Définir la stratégie informatique et piloter l'infrastructure au quotidien pour garantir la haute disponibilité, la performance et la sécurité globale des systèmes.
+            </p>
+            <p>
+                Administration & Sécurité : Superviser le parc de serveurs (Windows/Linux) et les droits d'accès, tout en durcissant la politique de cybersécurité (optimisation des pare-feu, automatisation des sauvegardes et tests de restauration).
+            </p>
+            <p>
+                Gestion de Projets IT : Concevoir et déployer des projets d'infrastructure de bout en bout, notamment la migration et l'optimisation d'environnements virtualisés sous VMware et Proxmox.
+            </p>
+            <p>
+                Management & Relations Métiers : Encadrer et faire monter en compétences l'équipe technique de support, tout en collaborant étroitement avec les différentes directions pour adapter les outils informatiques à leurs besoins réels.
             </p>
         </div>
         <div class="timeline-item fade-in">
-            <div class="date">2022 - 2024</div>
-            <h3>Technicien Support et Réseau</h3>
-            <div class="company">Entreprise - Madagascar</div>
+            <div class="date">Août 2023 - Octobre 2023</div>
+            <h3>Prestataire Informatique</h3>
+            <div class="company">SSM Ilanga Nature - Mandrosoa Ivato</div>
             <p>
-                Support technique aux utilisateurs, maintenance du parc informatique, administration des
-                équipements réseau (routeurs, switches, firewalls), gestion des sauvegardes.
+                Serveurs & Sécurité : Installation, sécurisation et mise à niveau de serveurs d'infrastructure (pare-feu, serveurs web, bases de données).
+            </p>
+            <p>
+                Optimisation Réseau : Déploiement physique et logique d'infrastructures réseaux (câblage structurel, routage et optimisation des points d'accès Wi-Fi).
+            </p>
+            <p>
+                Solutions Applicatives : Intégration et administration complète de la solution métier EspoCRM, incluant le développement d'outils internes complémentaires en PHP (Laravel).
             </p>
         </div>
         <div class="timeline-item fade-in">
-            <div class="date">2020 - 2022</div>
-            <h3>Stagiaire IT</h3>
-            <div class="company">Entreprise - Madagascar</div>
+            <div class="date">Février 2017 - Juin 2023</div>
+            <h3>Technicien de Support, Systèmes & Réseaux</h3>
+            <div class="company">Maïka Assistance - Antanimora Avaratra</div>
             <p>
-                Installation et configuration de postes de travail, déploiement de serveurs,
-                participation à la mise en place de solutions de supervision réseau.
+                Gestion globale du parc matériel : Suivi, préparation et configuration complète des postes de travail (PC, laptops), imprimantes, serveurs et équipements réseaux (LAN/Wi-Fi). Participation active aux inventaires de parc.
+            </p>
+            <p>
+                Maintenance préventive & corrective : Diagnostic et résolution rapide des incidents matériels, systèmes (Windows/Linux) et applicatifs, à distance ou sur site.
+            </p>
+            <p>
+                Administration Réseau & Sécurité de premier niveau : Gestion des accès utilisateurs, application des règles de filtrage pare-feu (pfSense), suivi des antivirus et exécution des sauvegardes régulières.
+            </p>
+        </div>
+        <div class="timeline-item fade-in">
+            <div class="date">Septembre 2016 - Février 2017</div>
+            <h3>Stagiaire Technicien Informatique</h3>
+            <div class="company">Maïka Assistance - Antanimora Avaratra</div>
+            <p>
+                Support & Déploiement : Assistance technique de premier niveau auprès des utilisateurs et participation au déploiement initial de logiciels sur les postes de travail.
+            </p>
+            <p>
+                Maintenance courante : Aide au diagnostic des pannes matérielles courantes et suivi de la connectivité réseau de base.
             </p>
         </div>
     </div>

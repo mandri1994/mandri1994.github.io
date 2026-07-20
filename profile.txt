@@ -1,0 +1,66 @@
+RAKOTONJARY
+MANDRINIRINA FRANÇOIS
+Contact
+--
+Tel: +261 34 52 316 23
+Address: Ambaniala Itaosy, Antananarivo
+Email: nirina.francois1994@gmail.com
+Linkdin: Mandrinirina François RAKOTONJARY
+Portfolio: https://mandri1994.github.io
+----
+
+FORMATIONS & DIPLÔMES
+--
+DTS en Informatique Réseau et Système d'Exploitation: CNTEMAD Ankadifatsy | 2015
+Auto-formation active & Validation d'expertises pratiques : Administration avancée Microsoft Windows Server (Active Directory, O365), Solutions de sauvegarde Veeam, Gestion de parc GLPI, Maquettage d'architectures multi-constructeurs sur GNS3 (Cisco, FortiGate).
+Baccalauréat Série D: Lycée Saint Vincent de Paul | 2013
+-----
+Introduction:
+Administrateur réseau et système
+Administrateur IT et Responsable d'infrastructure chevronné avec plus de 6 ans d'expérience dans la gestion, la maintenance et la sécurisation des systèmes d'information. Expert dans l'administration d'environnements virtualisés multi-plateformes, la gestion de réseaux LAN/WAN et le pilotage de la sécurité périmétrique. Fortement axé sur la haute disponibilité des services, l'optimisation du parc informatique et la mise en œuvre de politiques de sauvegarde rigoureuses, je mets mon autonomie et ma réactivité au service de la continuité d'activité de l'entreprise.
+-----
+EXPÉRIENCES PROFESSIONNELLES
+
+RESPONSABLE DE SYSTÈMES D'INFORMATION (RSI)
+MAÏKA ASSISTANCE | Antanimora Avaratra | Juin 2023 – Aujourd'hui
+- Pilotage & Performance : Définir la stratégie informatique et piloter l'infrastructure au quotidien pour garantir la haute disponibilité, la performance et la sécurité globale de nos systèmes. 
+- Administration & Sécurité : Superviser le parc de serveurs (Windows/Linux) et les droits d'accès, tout en durcissant la politique de cybersécurité (optimisation des pare-feu, automatisation des sauvegardes et tests de restauration). 
+- Gestion de Projets IT : Concevoir et déployer des projets d'infrastructure de bout en bout, notamment la migration et l'optimisation d'environnements virtualisés sous VMware et Proxmox. 
+- Management & Relations Métiers : Encadrer et faire monter en compétences l'équipe technique de support, tout en collaborant étroitement avec les différentes directions pour adapter les outils informatiques à leurs besoins réels.
+
+TECHNICIEN DE SUPPORT, SYSTÈMES & RÉSEAUX
+MAÏKA ASSISTANCE | Antanimora Avaratra | Février 2017 – Juin 2023
+- Gestion globale du parc matériel : Suivi, préparation et configuration complète des postes de travail (PC, laptops), imprimantes, serveurs et équipements réseaux (LAN/Wi-Fi). Participation active aux inventaires de parc. 
+- Maintenance préventive & corrective : Diagnostic et résolution rapide des incidents matériels, systèmes (Windows/Linux) et applicatifs, à distance ou sur site. 
+- Administration Réseau & Sécurité de premier niveau : Gestion des accès utilisateurs, application des règles de filtrage pare-feu (pfSense), suivi des antivirus et exécution des sauvegardes régulières.
+
+PRESTATAIRE INFORMATIQUE
+SSM ILANGA NATURE | Mandrosoa Ivato | Août 2023 – Octobre 2023
+- Serveurs & Sécurité : Installation, sécurisation et mise à niveau de serveurs d'infrastructure (pare-feu, serveurs web, bases de données). 
+- Optimisation Réseau : Déploiement physique et logique d'infrastructures réseaux (câblage structurel, routage et optimisation des points d'accès Wi-Fi). 
+- Solutions Applicatives : Intégration et administration complète de la solution métier EspoCRM, incluant le développement d'outils internes complémentaires en PHP (Laravel).
+
+STAGIAIRE TECHNICIEN INFORMATIQUE
+MAÏKA ASSISTANCE | Antanimora Avaratra | Septembre 2016 – Février 2017
+- Support & Déploiement : Assistance technique de premier niveau auprès des utilisateurs et participation au déploiement initial de logiciels sur les postes de travail. 
+- Maintenance courante : Aide au diagnostic des pannes matérielles courantes et suivi de la connectivité réseau de base.
+-------
+COMPÉTENCES TECHNIQUES
+
+- Administration Systèmes : Administration de serveurs Windows Server et Linux (Debian, Ubuntu). Gestion approfondie d'Active Directory (comptes utilisateurs, groupes, stratégies de droits) et administration de l'écosystème Microsoft 365 / O365. 
+- Virtualisation & Stockage : Déploiement et gestion d'environnements virtualisés via VMware (ESXi), Proxmox et notions sur Hyper-V. 
+Sécurité & Sauvegarde : Configuration avancée et administration de firewalls (pfSense, OPNsense, FortiGate). Gestion des solutions d'antivirus, IDS/IPS et concepts EDR/XDR. 
+- Responsable des politiques de sauvegarde et des tests de restauration des données (Veeam Backup, Windows Server Backup). 
+- Réseaux & Protocoles : Routage et commutation, gestion et sécurisation des architectures LAN, WAN, Wi-Fi, VPN, NAT et adressage (DNS, DHCP). 
+- Bases de Données : Administration et requêtage de bases de données MySQL, avec des notions sur PostgreSQL et SQL Server. 
+- Gestion de Parc  : Suivi des inventaires et gestion des incidents via GLPI. Gestion globale du cycle de vie du matériel informatique, des stocks de consommables et des contrats de maintenance. 
+- Développement Web : PHP, Laravel (API REST). 
+- Langues : Français (courant), Anglais (technique).
+
+--------
+
+PROJETS PERSONNELS & LABS TECHNIQUES
+- Simulation d'Infrastructures d'Entreprise (GNS3) : Conception de laboratoires réseaux multi-sites simulant l'interconnexion sécurisée par VPN, le routage et la segmentation en VLANs avec des pare-feu Cisco, FortiGate et OPNsense. 
+- Laboratoires de Virtualisation : Déploiement d'environnements de test hautement disponibles reposant sur Proxmox et VMware ESXi pour la validation de maquettes de serveurs et d'applications de sauvegarde. 
+- Déploiement Open Source : Installation, durcissement de la sécurité et optimisation sous environnement Debian d'un serveur CRM complet (EspoCRM).
+
