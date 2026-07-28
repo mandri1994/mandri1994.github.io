@@ -55,6 +55,7 @@ Sécurité & Sauvegarde : Configuration avancée et administration de firewalls 
 - Bases de Données : Administration et requêtage de bases de données MySQL, avec des notions sur PostgreSQL et SQL Server. 
 - Gestion de Parc  : Suivi des inventaires et gestion des incidents via GLPI. Gestion globale du cycle de vie du matériel informatique, des stocks de consommables et des contrats de maintenance. 
 - Développement Web : PHP, Laravel (API REST). 
+- Intelligence Artificielle & Automatisation : Utilisation d'OpenCode et d'autres outils d'IA pour l'ingénierie logicielle, la génération de code, l'automatisation des tâches DevOps et l'optimisation des workflows de développement. 
 - Langues : Français (courant), Anglais (technique).
 
 --------
@@ -63,4 +64,6 @@ PROJETS PERSONNELS & LABS TECHNIQUES
 - Simulation d'Infrastructures d'Entreprise (GNS3) : Conception de laboratoires réseaux multi-sites simulant l'interconnexion sécurisée par VPN, le routage et la segmentation en VLANs avec des pare-feu Cisco, FortiGate et OPNsense. 
 - Laboratoires de Virtualisation : Déploiement d'environnements de test hautement disponibles reposant sur Proxmox et VMware ESXi pour la validation de maquettes de serveurs et d'applications de sauvegarde. 
 - Déploiement Open Source : Installation, durcissement de la sécurité et optimisation sous environnement Debian d'un serveur CRM complet (EspoCRM).
+- Développement d'Applications Web Métier : Conception et développement d'applications web sur mesure pour la gestion des demandes internes et le suivi d'inventaire matériel, permettant d'automatiser les processus métiers et d'optimiser la traçabilité des équipements.
+- Intelligence Artificielle & Automatisation : Utilisation d'outils d'IA tels qu'OpenCode pour accélérer le développement logiciel, automatiser des tâches répétitives, générer et optimiser du code, et améliorer la productivité dans les projets d'infrastructure et de développement.
 
