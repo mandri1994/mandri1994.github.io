@@ -11,9 +11,11 @@
 
 ## PROFIL
 
-Administrateur IT et Responsable d'Infrastructure chevronné avec plus de 6 ans d'expérience dans la gestion, la maintenance et la sécurisation des systèmes d'information. Expert dans l'administration d'environnements virtualisés multi-plateformes, la gestion de réseaux LAN/WAN et le pilotage de la sécurité périmétrique. Fortement axé sur la haute disponibilité des services, l'optimisation du parc informatique et la mise en œuvre de politiques de sauvegarde rigoureuses, je mets mon autonomie et ma réactivité au service de la continuité d'activité de l'entreprise.
+Administrateur IT et Responsable d'Infrastructure chevronné avec plus de 6 ans d'expérience dans la gestion, la maintenance et la sécurisation des systèmes d'information. Autodidacte passionné, j'ai construit mon expertise par une auto-formation continue et une validation d'expertises pratiques sur des technologies variées (Windows Server, Linux, virtualisation, sécurité, DevOps).
 
-Je combine expertise infrastructure traditionnelle et approche moderne en intégrant des outils d'intelligence artificielle (OpenCode) pour automatiser les processus, accélérer le développement et optimiser les workflows techniques.
+Expert dans l'administration d'environnements virtualisés multi-plateformes, la gestion de réseaux LAN/WAN et le pilotage de la sécurité périmétrique. Maîtrise des environnements de production Linux (Ubuntu, Debian) et Windows Server, avec une approche moderne intégrant la conteneurisation (Docker), l'automatisation (Ansible, scripts) et les outils d'IA (OpenCode) pour optimiser les déploiements et la productivité.
+
+Fortement axé sur la haute disponibilité des services, l'optimisation du parc informatique et la mise en œuvre de politiques de sauvegarde rigoureuses, je mets mon autonomie et ma réactivité au service de la continuité d'activité de l'entreprise.
 
 ---
 
@@ -55,7 +57,7 @@ Je combine expertise infrastructure traditionnelle et approche moderne en intég
   CNTEMAD Ankadifatsy | 2015
 
 - **Auto-formation continue & Validation d'expertises pratiques**  
-  Administration avancée Microsoft Windows Server (Active Directory, O365), Solutions de sauvegarde Veeam, Gestion de parc GLPI, Maquettage d'architectures multi-constructeurs sur GNS3 (Cisco, FortiGate).
+  Administration avancée Microsoft Windows Server (Active Directory, O365), Solutions de sauvegarde Veeam, Gestion de parc GLPI, Maquettage d'architectures multi-constructeurs sur GNS3 (Cisco, FortiGate), Conteneurisation Docker, Automatisation avec Ansible, Gestion de versions avec Git, Sécurité des infrastructures web (Cloudflare, messagerie authentifiée).
 
 - **Baccalauréat Série D**  
   Lycée Saint Vincent de Paul | 2013
@@ -65,39 +67,44 @@ Je combine expertise infrastructure traditionnelle et approche moderne en intég
 ## COMPÉTENCES TECHNIQUES
 
 ### Administration Systèmes
-- Administration de serveurs Windows Server et Linux (Debian, Ubuntu)
-- Gestion approfondie d'Active Directory (comptes utilisateurs, groupes, stratégies de droits)
-- Administration de l'écosystème Microsoft 365 / O365
+- **Systèmes d'exploitation** : Ubuntu, Debian, Windows Server en production
+- **Services web** : Apache, Nginx (reverse proxy), IIS, PHP, MySQL/MariaDB, PostgreSQL, DNS, SSL
+- **Panels d'hébergement** : Plesk, ISPConfig, DirectAdmin (connaissances pratiques)
+- **Virtualisation** : VMware ESXi, Proxmox, Hyper-V
 
-### Virtualisation & Stockage
-- Déploiement et gestion d'environnements virtualisés via VMware (ESXi), Proxmox et Hyper-V
+### Conteneurisation & Orchestration
+- **Docker & Docker Compose** : déploiement, gestion et supervision de conteneurs (Redis, Elasticsearch, OpenSearch)
+- **Ansible** : automatisation des déploiements, configuration management et provisionnement d'infrastructures
 
-### Sécurité & Sauvegarde
-- Configuration avancée et administration de firewalls (pfSense, OPNsense, FortiGate)
-- Gestion des solutions d'antivirus, IDS/IPS et concepts EDR/XDR
-- Responsable des politiques de sauvegarde et des tests de restauration (Veeam Backup, Windows Server Backup)
+### Réseaux & Sécurité
+- **Réseaux** : TCP/IP, routage, commutation, LAN/WAN, VPN (WireGuard), pare-feu, NAT, QoS, DNS, DHCP
+- **Équipements** : MikroTik, Cisco, FortiGate, OPNsense, pfSense
+- **Sécurité** : IDS/HIDS (AIDE), Fail2ban, Imunify, ClamAV, durcissement de serveurs, réponse à incident, SPF/DKIM/DMARC, Cloudflare (DNS, cache, sécurité)
+- **Messagerie** : Postfix, Dovecot, diagnostic spam et réputation IP, délivrabilité
 
-### Réseaux & Protocoles
-- Routage et commutation, gestion et sécurisation des architectures LAN, WAN, Wi-Fi, VPN, NAT
-- Adressage (DNS, DHCP)
+### Sauvegarde & Continuité
+- **Solutions** : Veeam Backup, Windows Server Backup, rsync
+- **Clonage & restauration** : Partclone, tests de restauration, plans de reprise d'activité (PRA)
+
+### Automatisation & Scripting
+- **Scripts** : Bash, PowerShell, Batch
+- **Outils** : Git (gestion de versions), Ansible (automatisation), OpenCode (IA pour engineering logiciel)
+- **Tests de charge** : JMeter (connaissances pratiques)
+
+### Gestion de Parc & Supervision
+- **Outils** : GLPI, inventaire, gestion de cycle de vie matériel
+- **Monitoring** : supervision ressources, services et logs
 
 ### Bases de Données
-- Administration et requêtage de bases de données MySQL, PostgreSQL, SQL Server
-
-### Gestion de Parc
-- Suivi des inventaires et gestion des incidents via GLPI
-- Gestion globale du cycle de vie du matériel informatique, des stocks de consommables et des contrats de maintenance
+- MySQL, MariaDB, PostgreSQL, SQL Server
 
 ### Développement Web
 - PHP, Laravel (API REST)
 - Conception d'applications web métier (gestion de demandes, inventaire matériel)
 
-### Intelligence Artificielle & Automatisation
-- **OpenCode** : Utilisation d'outils d'IA pour l'engineering logiciel, l'automatisation des tâches DevOps, la génération et l'optimisation de code, et l'amélioration de la productivité dans les projets d'infrastructure et de développement.
-
 ### Langues
-- Français (courant)
-- Anglais (technique)
+- **Français** : courant
+- **Anglais** : technique (documentation, messages d'erreur)
 
 ---
 
@@ -115,11 +122,14 @@ Installation, durcissement de la sécurité et optimisation sous environnement D
 ### Développement d'Applications Web Métier
 Conception et développement d'applications web sur mesure pour la gestion des demandes internes et le suivi d'inventaire matériel, permettant d'automatiser les processus métiers et d'optimiser la traçabilité des équipements.
 
+### Automatisation & Conteneurisation (Docker / Ansible)
+Mise en place de playbooks Ansible pour le déploiement automatisé de services web (LAMP/LEMP) et de conteneurs Docker pour des environnements de test et de production. Utilisation de Git pour le versioning des configurations et des scripts d'automatisation.
+
 ---
 
 ## CENTRES D'INTÉRÊT & TECHNOLOGIES ÉMERGENTES
 
-- Intelligence Artificielle appliquée à l'IT et au DevOps
-- Automatisation des infrastructures (Infrastructure as Code)
+- Intelligence Artificielle appliquée à l'IT et au DevOps (OpenCode)
+- Automatisation des infrastructures (Infrastructure as Code : Ansible, Docker)
 - Cybersécurité et gouvernance des systèmes d'information
-- Veille technologique sur les solutions open source
+- Veille technologique continue sur les solutions open source et les environnements multi-clients
