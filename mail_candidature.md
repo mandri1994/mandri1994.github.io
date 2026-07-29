@@ -1,10 +1,10 @@
 # Mail de Candidature
 
-**Objet : Candidature – Administrateur(trice) Systèmes et Réseaux (CDI) – RAKOTONJARY Mandrinirina François**
+**Objet : Candidature – Administrateur(trice) Systèmes et Réseaux (CDI) – Profil RSI – RAKOTONJARY Mandrinirina François**
 
 Madame, Monsieur,
 
-Je vous adresse ma candidature au poste d'Administrateur(trice) Systèmes et Réseaux (CDI) que vous proposez au sein de OFFSHORE VALUE. Profil autodidacte avec plus de 6 ans d'expérience en administration infrastructure, sécurité et DevOps, je suis particulièrement motivé à mettre mon expertise au service de vos projets multi-clients.
+Je vous adresse ma candidature au poste d'Administrateur(trice) Systèmes et Réseaux (CDI) que vous proposez au sein de OFFSHORE VALUE. Actuellement Responsable des Systèmes d'Information (RSI), profil autodidacte avec plus de 6 ans d'expérience en infrastructure IT, sécurité et DevOps, je suis particulièrement motivé à mettre mon expertise au service de vos projets multi-clients.
 
 Vous trouverez ci-joint mon CV détaillé ainsi que ma lettre de motivation.
 

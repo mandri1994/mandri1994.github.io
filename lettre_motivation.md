@@ -1,10 +1,10 @@
 # Lettre de Motivation
 
-**Objet : Candidature au poste d'Administrateur(trice) Systèmes et Réseaux (CDI)**
+**Objet : Candidature au poste d'Administrateur(trice) Systèmes et Réseaux (CDI) – Profil RSI**
 
 Madame, Monsieur,
 
-C'est avec un vif intérêt que je vous soumets ma candidature au poste d'Administrateur(trice) Systèmes et Réseaux au sein de votre agence OFFSHORE VALUE. Votre expertise dans la création de sites internet et la qualité de vos infrastructures m'ont convaincu que votre structure est l'environnement idéal pour mettre à profit mes compétences en administration systèmes, réseaux et sécurité.
+C'est avec un vif intérêt que je vous soumets ma candidature au poste d'Administrateur(trice) Systèmes et Réseaux au sein de votre agence OFFSHORE VALUE. Actuellement Responsable des Systèmes d'Information (RSI) avec plus de 6 ans d'expérience, je souhaite mettre mon expertise en infrastructure IT, sécurité et DevOps au service de vos projets multi-clients.
 
 Autodidacte passionné, j'ai construit mon expertise au fil de plus de 6 ans d'expérience terrain, complétée par une auto-formation continue et une validation d'expertises pratiques sur des technologies variées. Cette démarche proactive me permet aujourd'hui de maîtriser un large spectre technique et de m'adapter rapidement à de nouveaux environnements, comme ceux que vous utilisez au quotidien.
 

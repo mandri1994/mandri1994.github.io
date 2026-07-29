@@ -11,7 +11,7 @@
 
 ## PROFIL
 
-Administrateur IT et Responsable d'Infrastructure chevronné avec plus de 6 ans d'expérience dans la gestion, la maintenance et la sécurisation des systèmes d'information. Autodidacte passionné, j'ai construit mon expertise par une auto-formation continue et une validation d'expertises pratiques sur des technologies variées (Windows Server, Linux, virtualisation, sécurité, DevOps).
+Responsable IT et Infrastructure chevronné avec plus de 6 ans d'expérience dans la gestion, la maintenance et la sécurisation des systèmes d'information. Autodidacte passionné, j'ai construit mon expertise par une auto-formation continue et une validation d'expertises pratiques sur des technologies variées (Windows Server, Linux, virtualisation, sécurité, DevOps).
 
 Expert dans l'administration d'environnements virtualisés multi-plateformes, la gestion de réseaux LAN/WAN et le pilotage de la sécurité périmétrique. Maîtrise des environnements de production Linux (Ubuntu, Debian) et Windows Server, avec une approche moderne intégrant la conteneurisation (Docker), l'automatisation (Ansible, scripts) et les outils d'IA (OpenCode) pour optimiser les déploiements et la productivité.
 

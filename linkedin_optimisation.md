@@ -15,7 +15,7 @@ Responsable des Systèmes d'Information (RSI) | Administration Réseau & Cybers�
 
 **Copie ce texte :**
 ```
-Administrateur IT et Responsable d'Infrastructure chevronné avec +6 ans d'expérience dans la gestion, la maintenance et la sécurisation des systèmes d'information.
+Responsable IT et Responsable d'Infrastructure chevronné avec +6 ans d'expérience dans la gestion, la maintenance et la sécurisation des systèmes d'information.
 
 Expert dans l'administration d'environnements virtualisés multi-plateformes (VMware, Proxmox), la gestion de réseaux LAN/WAN et le pilotage de la sécurité périmétrique. Fortement axé sur la haute disponibilité des services, l'optimisation du parc informatique et la mise en œuvre de politiques de sauvegarde rigoureuses.
 
